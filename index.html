@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<meta name="description" content="Clean Out Vents — dryer vent cleaning in Coral Springs, Sunrise, Plantation and Fort Lauderdale. $149 flat. Mon–Sat 8am to 5pm. Call or text 954-931-7997.">
+<meta name="description" content="Clean Out Vents — dryer vent cleaning in Coral Springs, Sunrise, Plantation and Fort Lauderdale. $149 first floor, $249 second floor. Mon–Sat 8am to 5pm. Call or text 954-931-7997.">
 <link rel="icon" href="data:,">
 <title>Clean Out Vents — Dryer Vent Cleaning in Broward County</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,6 +61,7 @@ nav.main a:hover{background:var(--bg2)}
 .view{display:none}
 .view.active{display:block}
 .hero{padding:34px 0 10px}
+@media(max-width:760px){.hero{padding-top:20px}.hero .lede{font-size:1.02rem;line-height:1.45}.hero .price-line{margin:10px 0;gap:8px}.hero .cta-row{margin:12px 0 6px}.hero h1{font-size:1.95rem}}
 .hero-grid{display:grid;gap:26px}
 @media(min-width:880px){.hero-grid{grid-template-columns:1.05fr .95fr;align-items:center}}
 .hero img,.lp-img{width:100%;height:auto;border-radius:18px;box-shadow:var(--shadow);display:block}
@@ -144,11 +145,11 @@ footer a{font-weight:600}
   <div class="wrap hero">
     <div class="hero-grid">
       <div>
-        <span class="chip">Dryer vent cleaning · $149 flat</span>
+        <span class="chip">Dryer vent cleaning · Broward County</span>
         <h1 style="margin-top:14px">Your dryer is begging for air.</h1>
         <p class="lede">Lint builds up inside your dryer vent until hot, moist air can barely get out. Clothes take forever, the dryer works overtime, and the lint packed in that vent is a fire risk. We clear the full vent run — from the dryer to the outside cap — so your dryer can breathe again.</p>
         <div class="price-line">
-          <span class="chip">$149 flat-rate cleaning</span>
+          <span class="chip">$149 1st floor · $249 2nd floor</span>
           <span class="chip">Mon–Sat · 8am to 5pm</span>
           <span class="chip">Coral Springs · Sunrise · Plantation · Fort Lauderdale</span>
         </div>
@@ -217,7 +218,7 @@ footer a{font-weight:600}
         <div class="card" style="display:flex;gap:14px"><div class="num">3</div><div><h3>Vacuum it all out</h3><p>Loosened lint is vacuumed out of the run and collected, so it leaves with us instead of settling back inside.</p></div></div>
         <div class="card" style="display:flex;gap:14px"><div class="num">4</div><div><h3>Reconnect and retest</h3><p>We reconnect the dryer, confirm the outside flap opens freely, and retest airflow. We guarantee clean airflow with every cleaning.</p></div></div>
       </div>
-      <h3 style="margin-top:26px">What is included in the $149 cleaning</h3>
+      <h3 style="margin-top:26px">What is included in every cleaning</h3>
       <ul class="check" style="grid-template-columns:1fr;max-width:44rem">
         <li>Full vent run cleaning, from the back of the dryer to the exterior cap</li>
         <li>Transition hose and exterior cap checked and cleared</li>
@@ -230,17 +231,25 @@ footer a{font-weight:600}
 
   <section id="home-pricing">
     <div class="wrap">
-      <h2>Simple, flat pricing</h2>
-      <div class="grid grid-2" style="margin-top:14px">
+      <h2>Simple, flat pricing — by floor</h2>
+      <p style="color:var(--muted);max-width:42rem">One flat price based on which floor your laundry is on. No per-foot surprises.</p>
+      <div class="grid grid-3" style="margin-top:14px">
         <div class="card" style="border:2px solid var(--teal)">
-          <h3>Standard home cleaning</h3>
+          <h3>1st floor cleaning</h3>
           <div class="stat" style="color:var(--teal)">$149</div>
-          <p>One flat price for a standard residential dryer vent cleaning. No per-foot surprises. Homes in Coral Springs, Sunrise, Plantation, Fort Lauderdale, and nearby Broward County neighborhoods.</p>
+          <p>Standard residential dryer vent cleaning when your laundry is on the first floor. Full vent run, dryer to outside cap, with airflow checked before we leave.</p>
+          <div class="cta-row"><a class="btn btn-call" href="tel:9549317997">Call 954-931-7997</a><a class="btn btn-ghost" href="#home-quote">Get a quote</a></div>
+        </div>
+        <div class="card" style="border:2px solid var(--teal)">
+          <h3>2nd floor cleaning</h3>
+          <div class="stat" style="color:var(--teal)">$249</div>
+          <p>Standard residential dryer vent cleaning when your laundry is on the second floor. Same full-run cleaning and airflow check, priced for second-floor access and runs.</p>
           <div class="cta-row"><a class="btn btn-call" href="tel:9549317997">Call 954-931-7997</a><a class="btn btn-ghost" href="#home-quote">Get a quote</a></div>
         </div>
         <div class="card">
           <h3>Buildings and portfolios</h3>
           <p>Condos, HOAs, and landlords get per-unit pricing for full-building service days, so dozens of vents get cleaned in one coordinated visit instead of one call-out at a time.</p>
+          <p>Homes in Coral Springs, Sunrise, Plantation, Fort Lauderdale, and nearby Broward County neighborhoods.</p>
           <div class="cta-row"><a class="btn btn-ghost" href="#condos">Condos &amp; HOAs</a><a class="btn btn-ghost" href="#landlords">Landlords</a></div>
           <p style="margin-top:10px">Want it handled every year? See the <a href="#annual-plan">Annual Cleaning Plan</a> with priority scheduling in peak season.</p>
         </div>
@@ -267,7 +276,7 @@ footer a{font-weight:600}
     <div class="wrap" style="max-width:820px">
       <h2>Frequently asked questions</h2>
       <div style="margin-top:14px">
-        <details><summary>How much does dryer vent cleaning cost?</summary><p>A standard residential cleaning is $149 flat. Condos, HOAs, and multi-unit properties get per-unit pricing for full-building service days — call 954-931-7997 or send the quote form below for a building quote.</p></details>
+        <details><summary>How much does dryer vent cleaning cost?</summary><p>A standard residential cleaning is $149 for first-floor laundry and $249 for second-floor laundry. Condos, HOAs, and multi-unit properties get per-unit pricing for full-building service days — call 954-931-7997 or send the quote form below for a building quote.</p></details>
         <details><summary>How long does a cleaning take?</summary><p>Most standard home vents take about an hour, depending on the length of the run and how packed it is. Long, roof-exit, or heavily clogged runs can take a bit longer.</p></details>
         <details><summary>How often should a dryer vent be cleaned?</summary><p>Once a year is the standard recommendation for most households. Large families, pet hair, and long vent runs may need it more often. Our Annual Cleaning Plan handles the scheduling for you.</p></details>
         <details><summary>Will cleaning really make my dryer dry faster?</summary><p>If slow drying is caused by a clogged vent — the most common cause — yes. Restoring airflow lets moist air escape, so loads dry in one cycle again. If we find the problem is the dryer itself, we will tell you honestly.</p></details>
@@ -285,7 +294,7 @@ footer a{font-weight:600}
           <h2>Get your quote</h2>
           <p style="color:var(--muted)">Fill this in and choose how to send it. “Text my request” opens a text to 954-931-7997 with your details already written. “Email my request” does the same by email to Cleanoutvents@gmail.com. Nothing is stored on this page.</p>
           <ul class="check">
-            <li>$149 flat for a standard home cleaning</li>
+            <li>$149 for 1st floor · $249 for 2nd floor</li>
             <li>Mon–Sat, 8am to 5pm</li>
             <li>We guarantee clean airflow with every cleaning</li>
           </ul>
@@ -323,14 +332,14 @@ footer a{font-weight:600}
             <li><strong>Notice the room.</strong> A hot, steamy laundry room during a cycle means exhaust is backing up indoors.</li>
             <li><strong>Empty the lint trap and retry.</strong> If drying is still slow with a clean trap, the problem is deeper in the vent run.</li>
           </ul>
-          <p style="color:var(--muted)">A full cleaning clears the entire run for $149 flat — usually far less than a repair call or a replacement dryer you do not need. We guarantee clean airflow with every cleaning.</p>
+          <p style="color:var(--muted)">A full cleaning clears the entire run for $149 on the first floor or $249 on the second floor — usually far less than a repair call or a replacement dryer you do not need. We guarantee clean airflow with every cleaning.</p>
         </div>
       </div>
     </div>
   </section>
   <section class="band" id="q-two-cycles">
     <div class="wrap"><div class="hero-grid">
-      <div><h2>Book the two-cycle fix</h2><p style="color:var(--muted)">Tell us what your dryer is doing. Sending opens a text or email with your details prefilled — mention this page for your free before-and-after airflow test.</p><p class="fine">Call <a href="tel:9549317997">954-931-7997</a> · Mon–Sat, 8am to 5pm · $149 flat</p></div>
+      <div><h2>Book the two-cycle fix</h2><p style="color:var(--muted)">Tell us what your dryer is doing. Sending opens a text or email with your details prefilled — mention this page for your free before-and-after airflow test.</p><p class="fine">Call <a href="tel:9549317997">954-931-7997</a> · Mon–Sat, 8am to 5pm · $149 1st floor · $249 2nd floor</p></div>
       <div class="form-card" data-form data-source="Landing page — Dryer Takes Two Cycles"></div>
     </div></div>
   </section>
@@ -367,12 +376,12 @@ footer a{font-weight:600}
         <div class="card"><h3>Empty the trap every load</h3><p>A clean trap improves airflow and keeps more lint out of the duct between professional cleanings.</p></div>
         <div class="card"><h3>Watch for warning signs</h3><p>Longer drying times, a hot laundry room, or a burning smell are your vent asking for attention. See the <a href="#home-signs">six warning signs</a>.</p></div>
       </div>
-      <p style="color:var(--muted);margin-top:16px">Our $149 cleaning clears the full run from the dryer to the outside cap, and we flag crushed or disconnected ducts when we find them. We guarantee clean airflow with every cleaning.</p>
+      <p style="color:var(--muted);margin-top:16px">Our cleaning clears the full run from the dryer to the outside cap — $149 for first-floor laundry, $249 for second-floor laundry — and we flag crushed or disconnected ducts when we find them. We guarantee clean airflow with every cleaning.</p>
     </div>
   </section>
   <section class="band" id="q-fire-safety">
     <div class="wrap"><div class="hero-grid">
-      <div><h2>Book a safety cleaning</h2><p style="color:var(--muted)">Send your details by text or email and we will get you scheduled. Mon–Sat, 8am to 5pm.</p><p class="fine">Call <a href="tel:9549317997">954-931-7997</a> · Email <a href="mailto:Cleanoutvents@gmail.com">Cleanoutvents@gmail.com</a> · $149 flat</p></div>
+      <div><h2>Book a safety cleaning</h2><p style="color:var(--muted)">Send your details by text or email and we will get you scheduled. Mon–Sat, 8am to 5pm.</p><p class="fine">Call <a href="tel:9549317997">954-931-7997</a> · Email <a href="mailto:Cleanoutvents@gmail.com">Cleanoutvents@gmail.com</a> · $149 1st floor · $249 2nd floor</p></div>
       <div class="form-card" data-form data-source="Landing page — Fire Safety"></div>
     </div></div>
   </section>
@@ -399,12 +408,12 @@ footer a{font-weight:600}
         <div class="card"><h3>It protects the dryer you own</h3><p>A clogged vent makes any dryer — new or inherited — overheat and wear out early. Clean airflow is cheap insurance.</p></div>
         <div class="card"><h3>It starts your yearly clock</h3><p>Clean it at move-in, then once a year after that. The <a href="#annual-plan">Annual Cleaning Plan</a> can remember the date so you do not have to.</p></div>
       </div>
-      <p style="color:var(--muted);margin-top:16px">One visit, $149 flat, and the vent is yours — clean. We serve Coral Springs, Sunrise, Plantation, Fort Lauderdale, and nearby Broward County neighborhoods, Mon–Sat, 8am to 5pm. We guarantee clean airflow with every cleaning.</p>
+      <p style="color:var(--muted);margin-top:16px">One visit — $149 for first-floor laundry or $249 for second-floor laundry — and the vent is yours, clean. We serve Coral Springs, Sunrise, Plantation, Fort Lauderdale, and nearby Broward County neighborhoods, Mon–Sat, 8am to 5pm. We guarantee clean airflow with every cleaning.</p>
     </div>
   </section>
   <section class="band" id="q-new-homeowners">
     <div class="wrap"><div class="hero-grid">
-      <div><h2>Book your move-in cleaning</h2><p style="color:var(--muted)">Send your details by text or email and we will schedule your first cleaning in your new home.</p><p class="fine">Call <a href="tel:9549317997">954-931-7997</a> · $149 flat</p></div>
+      <div><h2>Book your move-in cleaning</h2><p style="color:var(--muted)">Send your details by text or email and we will schedule your first cleaning in your new home.</p><p class="fine">Call <a href="tel:9549317997">954-931-7997</a> · $149 1st floor · $249 2nd floor</p></div>
       <div class="form-card" data-form data-source="Landing page — New Homeowners"></div>
     </div></div>
   </section>
@@ -470,7 +479,7 @@ footer a{font-weight:600}
         <div class="card"><h3>Scheduled annual service</h3><p>We clean each property’s vent yearly and keep the rhythm with you, so no unit quietly goes five years between cleanings.</p></div>
         <div class="card"><h3>Appliance protection</h3><p>Clean vents mean dryers in your units run cooler and last longer — fewer appliance replacements and fewer “dryer is broken” calls that turn out to be a clog.</p></div>
       </div>
-      <p style="color:var(--muted);margin-top:16px">Standard single-home cleaning is $149 flat. Multi-unit and repeat-property pricing is quoted per property — call 954-931-7997 or send the form below. Serving Coral Springs, Sunrise, Plantation, Fort Lauderdale, and nearby Broward County, Mon–Sat, 8am to 5pm.</p>
+      <p style="color:var(--muted);margin-top:16px">Standard single-home cleaning is $149 for first-floor laundry and $249 for second-floor laundry. Multi-unit and repeat-property pricing is quoted per property — call 954-931-7997 or send the form below. Serving Coral Springs, Sunrise, Plantation, Fort Lauderdale, and nearby Broward County, Mon–Sat, 8am to 5pm.</p>
     </div>
   </section>
   <section class="band" id="q-landlords">
@@ -503,12 +512,12 @@ footer a{font-weight:600}
         <div class="card" style="display:flex;gap:14px"><div class="num">2</div><div><h3>We remember</h3><p>When your year comes around, we contact you to schedule — no calendar math, no guessing whether it is “due yet.”</p></div></div>
         <div class="card" style="display:flex;gap:14px"><div class="num">3</div><div><h3>You dry in one cycle</h3><p>Full-run cleaning, airflow checked, every year. We guarantee clean airflow with every cleaning.</p></div></div>
       </div>
-      <p style="color:var(--muted);margin-top:16px">Standard home cleaning is $149 flat. Plan scheduling runs Mon–Sat, 8am to 5pm, across Coral Springs, Sunrise, Plantation, Fort Lauderdale, and nearby Broward County neighborhoods.</p>
+      <p style="color:var(--muted);margin-top:16px">Standard home cleaning is $149 for first-floor laundry and $249 for second-floor laundry. Plan scheduling runs Mon–Sat, 8am to 5pm, across Coral Springs, Sunrise, Plantation, Fort Lauderdale, and nearby Broward County neighborhoods.</p>
     </div>
   </section>
   <section class="band" id="q-annual-plan">
     <div class="wrap"><div class="hero-grid">
-      <div><h2>Join the Annual Cleaning Plan</h2><p style="color:var(--muted)">Send your details by text or email and ask for the plan — we will confirm your first cleaning and put your yearly reminder in place.</p><p class="fine">Call <a href="tel:9549317997">954-931-7997</a> · $149 flat standard cleaning</p></div>
+      <div><h2>Join the Annual Cleaning Plan</h2><p style="color:var(--muted)">Send your details by text or email and ask for the plan — we will confirm your first cleaning and put your yearly reminder in place.</p><p class="fine">Call <a href="tel:9549317997">954-931-7997</a> · $149 1st floor · $249 2nd floor</p></div>
       <div class="form-card" data-form data-source="Landing page — Annual Cleaning Plan"></div>
     </div></div>
   </section>
@@ -532,7 +541,7 @@ footer a{font-weight:600}
         <h3 style="margin-bottom:8px">Service area &amp; guides</h3>
         <p style="color:var(--muted);font-size:.93rem;margin:4px 0">Coral Springs · Sunrise · Plantation · Fort Lauderdale · nearby Broward County neighborhoods</p>
         <p style="font-size:.93rem;margin:4px 0"><a href="#two-cycles">Two Cycles</a> · <a href="#fire-safety">Fire Safety</a> · <a href="#new-homeowners">New Homeowners</a> · <a href="#condos">Condos &amp; HOAs</a> · <a href="#landlords">Landlords</a> · <a href="#annual-plan">Annual Plan</a></p>
-        <p style="font-size:.93rem;margin:4px 0">Standard home cleaning: <strong>$149 flat</strong></p>
+        <p style="font-size:.93rem;margin:4px 0">Standard cleaning: <strong>$149 1st floor · $249 2nd floor</strong></p>
       </div>
     </div>
   </div>
@@ -584,7 +593,7 @@ footer a{font-weight:600}
       if(city) lines.push("City: " + city);
       if(notes) lines.push("Details: " + notes);
       if(when) lines.push("Preferred time: " + when);
-      lines.push("Standard price I saw: $149");
+      lines.push("Pricing I saw: $149 first floor / $249 second floor");
       return lines.join("\n");
     }
     box.querySelectorAll("[data-send]").forEach(function(btn){

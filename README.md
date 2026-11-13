@@ -8,7 +8,7 @@ Same-day dryer vent cleaning in Broward County, Florida.
 
 - **Call or text:** 954-931-7997
 - **Email:** Cleanoutvents@gmail.com
-- **Price:** $149
+- **Price:** $149 for 1st-floor laundry · $249 for 2nd-floor laundry
 - **Hours:** Mon–Sat, 8am to 5pm
 - **Guarantee:** We guarantee clean airflow with every cleaning.
 - **Live site:** https://muse.ai/s/clean-out-vents-public-site-dxn6xygsxs4ctp/PcBCdG3YRYpEt8hAhEDXy8mm18bmOl18TMfc5MxAxNk
