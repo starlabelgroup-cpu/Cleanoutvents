@@ -797,6 +797,24 @@ footer a{font-weight:600}
   render();
 })();
 </script>
+<script src="/session-vault.js" defer></script>
+<script>
+/* Platform Interconnect (2026-11-19): a holder already signed in to
+   the Service OS travels from here without signing in again — the
+   flagship doors below are wrapped through the one-time handoff
+   (60-second code, same account, no extra powers) whenever a session
+   exists on this origin. Signed-out visitors keep the plain doors. */
+document.addEventListener('DOMContentLoaded', function () {
+  try {
+    if (!window.TSOSVault || !TSOSVault.handoffUrl) return;
+    var links = document.querySelectorAll('a[href^="https://topspeedserviceos.com"]');
+    for (var i = 0; i < links.length; i++) {
+      var wrapped = TSOSVault.handoffUrl(links[i].href);
+      if (wrapped && wrapped !== links[i].href) links[i].href = wrapped;
+    }
+  } catch (e) {}
+});
+</script>
 <script src="/page-slider.js" defer></script>
 </body>
 </html>
